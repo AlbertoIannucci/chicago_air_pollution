@@ -1,0 +1,17 @@
+## 🐍 Script Python – Processo ETL
+
+Il progetto è strutturato in moduli Python che implementano un pipeline ETL completa: **Estrazione**, **Trasformazione** e **Caricamento** dei dati.
+
+### 📌 `modello_base.py`
+Classe astratta di supporto che contiene metodi riutilizzabili per l'esplorazione e l'analisi preliminare di dataset in formato `pandas.DataFrame`.
+
+### 📌 `extract_transform.py`
+Script dedicato alla fase di **data cleaning e trasformazione**:
+- Gestione dei valori mancanti
+- Calcoli derivati 
+- Conversioni di tipo
+- Rimappatura delle colonne in snake_case
+
+### 📌 `load.py`
+Script per la fase di **caricamento dei dati** nel database MySQL:
+- Inserimento dei record nella tabella principale
