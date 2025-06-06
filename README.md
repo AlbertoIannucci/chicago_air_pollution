@@ -14,7 +14,7 @@ Analizzare un dataset ambientale reale per:
 
 - `extract_transform.py`: Script per il caricamento e la pulizia del dataset originale (CSV), con gestione dei missing values e trasformazioni.
 - `load.py`: Script per il caricamento dei dati nel database MySQL.
-- `report_retail_store.pdf`: Report finale con raccomandazioni strategiche basate sui dati.
+- `report_chicago_air_quality_analysis.pdf`: Report finale con raccomandazioni strategiche basate sui dati.
 - `db_schema.png`: Diagramma E-R.
 
 ## 🧰 Tecnologie utilizzate
